@@ -18,8 +18,8 @@ public class Praktikum {
         List<Ingredient> ingredients = database.availableIngredients();
 
         // Соберём бургер
-        burger.setBuns(buns.get(0));
-
+        burger.setBuns(buns.get(2));
+        burger.addIngredient(ingredients.get(0));
         burger.addIngredient(ingredients.get(1));
         burger.addIngredient(ingredients.get(4));
         burger.addIngredient(ingredients.get(3));
